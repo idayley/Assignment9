@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Assignment9.Models
 {
+
+    // Movie object model
     public class Movie
     {
         [Key]

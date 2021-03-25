@@ -12,7 +12,8 @@ namespace Assignment9.Controllers
     public class MoviesController : Controller
     {
         private readonly MovieListContext _context;
-
+            
+        // Setup the database context
         public MoviesController(MovieListContext context)
         {
             _context = context;

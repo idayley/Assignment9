@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment9.Models
 {
+    // Database context for movies
     public class MovieListContext : DbContext
     {
         public MovieListContext (DbContextOptions<MovieListContext> options) : base (options)
